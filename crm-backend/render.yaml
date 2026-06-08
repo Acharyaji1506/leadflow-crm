@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: crm-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        sync: false   # Set in Render dashboard
+      - key: CLIENT_URL
+        sync: false   # Set in Render dashboard (your Vercel URL)
+    autoDeploy: true
