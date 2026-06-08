@@ -1,3 +1,9 @@
+🌐 Frontend: https://leadflow-o8qmphsdj-acharyaji1506s-projects.vercel.app
+⚙️ Backend: https://leadflow-crm-backend-0gb7.onrender.com
+📦 GitHub: https://github.com/Acharyaji1506/leadflow-crm
+
+
+
 # LeadFlow CRM — Lead Management System
 
 A production-grade, full-stack Lead Management CRM built for small businesses. Clean architecture, modern UI, real-time features.
